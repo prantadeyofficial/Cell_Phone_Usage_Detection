@@ -71,7 +71,9 @@ while True:
 
     cv2.imshow("Video - Detected Persons and Phones", frame_resized)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q') or cv2.getWindowProperty("Video - Detected Persons and Phones", cv2.WND_PROP_VISIBLE) < 1:
+        cap.release()
+        cv2.destroyAllWindows()
         break
 
 cap.release()
