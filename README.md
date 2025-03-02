@@ -20,7 +20,7 @@ This project aims to analyze and detect cell phone usage patterns. It utilizes v
 ## Usage
 - To run the analysis, execute the following command:
   ```bash
-  python main.py
+  python CellPhoneDetection.py
   ```
 - Ensure that you have the necessary data files in the correct format.
 
