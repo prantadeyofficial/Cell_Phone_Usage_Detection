@@ -28,4 +28,4 @@ This project aims to analyze and detect cell phone usage patterns. It utilizes v
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the GPL 3.0 License. See the LICENSE file for more information.
